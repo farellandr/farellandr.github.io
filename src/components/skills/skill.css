@@ -1,0 +1,147 @@
+#skill-page {
+    position: relative;
+    background-color: #343A4C;
+    width: 100%;
+    height: 70vh;
+    background-image: url(../svgs/wave2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.skill-container {
+    display: flex;
+}
+
+.skill-content {
+    width: calc(33% + 3px);
+    padding-left: 2vh;
+}
+
+.judul-skill {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.judul-skill {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+}
+
+.judul-skill::after{
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid;
+    margin: auto;
+}
+
+.judul-skill::after {
+    margin-left: 10px
+}
+
+.skill-list {
+    margin: 1vh 2vh;
+    color: #fff;
+}
+
+.skill-list ul {
+    margin-bottom: 2vh;
+}
+
+.skill-list ul li {
+    list-style: none;
+    transition: 0.2s ease;
+}
+
+.skill-list ul .year {
+    margin-left: 2em;
+}
+
+.skill-list ul .iconed:hover {
+    color: #add8e6;
+    cursor: pointer;
+}
+
+.skill-list ul .smp::before {
+    content: "\f549";
+    font-family: FontAwesome;
+    list-style: outside;
+    display: inline-block;
+    width: 2em;
+    color: #fff;
+}
+
+.skill-list ul .smk::before {
+    content: "\f19d";
+    font-family: FontAwesome;
+    list-style: outside;
+    display: inline-block;
+    width: 2em;
+    color: #fff;
+}
+
+.skill-list ul .certi::before {
+    content: "\f15c";
+    font-family: FontAwesome;
+    list-style: outside;
+    display: inline-block;
+    width: 2em;
+    color: #fff;
+}
+
+.skill-list ul .tml::before {
+    content: "\f1c9";
+    font-family: FontAwesome;
+    list-style: outside;
+    display: inline-block;
+    width: 2em;
+    color: #fff;
+}
+
+.skill-list ul .masql::before {
+    content: "\f1c0";
+    font-family: FontAwesome;
+    list-style: outside;
+    display: inline-block;
+    width: 2em;
+    color: #fff;
+}
+
+.skill-list ul .riek::before {
+    content: "\f41b";
+    font-family: FontAwesome;
+    list-style: outside;
+    display: inline-block;
+    width: 2em;
+    color: #fff;
+}
+
+.skill-list ul .lvrl::before {
+    content: "\f3bd";
+    font-family: FontAwesome;
+    list-style: outside;
+    display: inline-block;
+    width: 2em;
+    color: #fff;
+}
+
+.gaps {
+    margin-bottom: 6vh;
+}
+
+@media (max-width:982px) {
+
+    #skill-page {
+        height: auto;
+    }
+
+    .skill-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-list ul .year {
+        margin-left: 0;
+    }
+}

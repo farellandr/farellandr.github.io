@@ -1,0 +1,116 @@
+#contact-page {
+    position: relative;
+    background-color: #40454D;
+    width: 100%;
+    height: 92vh;
+    padding-top: 9vh;
+    background-image: url(../svgs/wave4.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.contact-container {
+    width: 100%;
+    color: #fff;
+}
+
+.judul-contact {
+    margin: 4vh 3vh;
+}
+
+.judul-contact h1 {
+    font-size: 3rem;
+}
+
+.judul-contact p {
+    font-size: 1.2rem;
+    opacity: 60%;
+}
+
+.contact-form {
+    margin: 1vh 3vh 0 3vh;
+}
+
+form {
+    display: flex;
+}
+
+.inputs {
+    margin-bottom: 4vh;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+}
+
+.forms label {
+    font-size: 1.4rem;
+    margin-bottom: 1vh;
+}
+
+.forms .form {
+    background-color: rgba(169, 169, 169, 0.2);
+    border-radius: 10px;
+    width: 50vh;
+}
+
+.forms .form i {
+    padding: 10px;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.forms .form input {
+    padding: 10px;
+    transition: 0.2s ease;
+    background: none;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    caret-color: #FFF;
+    color: #FFF;
+    width: 70%;
+}
+
+.radio {
+    width: 50vh;
+}
+
+.radio input {
+    margin-right: 1vh;
+}
+
+.radio label {
+    margin-right: 3vh;
+}
+
+.txtarea {
+    width: 90%;
+    padding-left: 4vh;
+}
+
+.forms textarea {
+    resize: none;
+    height: 24vh;
+    padding: 3vh 2vh;
+    border-radius: 10px;
+}
+
+.forms .submit {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+  
+.forms .submit:hover {
+    background-color: #45a049;
+  }
